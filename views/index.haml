@@ -1,0 +1,76 @@
+.wrapper.padding2
+  .title
+    Подберем курьера в вашу компанию
+
+
+.gray
+  .wrapper.padding2
+    .order-form
+      .offer
+        До
+        %span.light 24 сентября
+        стоимость подбора курьера
+        составляет всего
+        %span.light 3 000 рублей
+
+      .form
+        .about Оставьте заявку и с вами свяжется наш менеджер.
+        %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+        %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+        %button.send-order
+          Отправить
+
+.wrapper.padding2
+  .subtitle
+    Почему стоит заказать подбор курьера именно у нас?
+
+
+    .blocks
+      .block
+        .icon.quick
+        .block-head
+          Быстро
+        .block-content
+          Мы предоставим вам список из пяти кандидатов уже на следующий
+          день после обращения
+        .button.get-price Подобрать курьера
+
+      .block
+        .icon.clipboard
+        .block-head
+          Дешево
+        .block-content
+          Прямо говоря, у нас самая низкая цена на рынке.
+        .button.get-price Подобрать курьера
+
+      .block.last
+        .icon.ok
+        .block-head
+          Бесплатная замена
+        .block-content
+          Мы бесплатно заменим вам курьера, если вы поймете, что он
+          вам не подходит.
+        .button.get-price Подобрать курьера
+
+
+.modal-overlay
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
+
+
+    %button#hide-thank-you
+      Я буду ждать!
+
+.modal-dialog
+  .header
+    Оставьте заявку и мы очень скоро с вами свяжемся.
+  .body
+    %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+    %button.send-order
+      Отправить заявку
+
+
