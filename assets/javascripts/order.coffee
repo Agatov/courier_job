@@ -38,6 +38,8 @@ $ ->
     hide_order_form()
     show_thank_you()
 
+    yaCounter22383463.reachGoal('new_order')
+
     false
 
 
